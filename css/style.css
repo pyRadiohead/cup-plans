@@ -5,4 +5,82 @@ html {
 html,
 body {
 	min-height: 100%;
+	background-color: #FDDE7E;
+}
+
+*,
+:after,
+:before {
+	box-sizing: border-box;
+}
+
+.cups {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 800px;
+}
+
+.cup-info {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	background: #FFFFFF;
+	width: 31%;
+	height: 384px;
+}
+
+.cup-info li {
+	list-style: none;
+}
+
+p.price {
+	font-size: 70px;
+	letter-spacing: 2px;
+	color: rgb(2, 153, 91);
+	font-weight: bold;
+}
+
+p {
+	margin: 0;
+}
+
+p.price:before {
+	content: "$";
+}
+
+.cup {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+}
+
+.bean {
+	position: absolute;
+	top: 60px;
+	right: 57px;
+
+}
+
+.smoke {
+	height: 46px;
+	width: 49px;
+	margin-bottom: 11px;
+}
+
+.cup-picture {
+	height: 77px;
+	width: 135px;
+}
+
+p.medal {
+	font-size: 56px;
+	color: rgb(51, 51, 51);
+	font-family: "Miso";
+	text-align: center;
 }
