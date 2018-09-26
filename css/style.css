@@ -81,7 +81,7 @@ p.price:before {
 
 .bean {
 	position: absolute;
-	top: 15px;
+	top: 71px;
 	right: 58px;
 
 }
@@ -120,4 +120,8 @@ p.medal {
 
 	display: flex;
 	flex-flow: column wrap;
+}
+
+.promotion-value:before {
+	content: "$";
 }
